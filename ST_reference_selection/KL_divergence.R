@@ -5,7 +5,7 @@ library(dplyr)
 library(ggpubr)
 
 #CosMx as reference
-CosMx_layer<-fread("/Users/tangji/Library/CloudStorage/OneDrive-EmoryUniversity/backup/research/Spatial/github/CLS_CTS_DGE/CosMx_layer.txt",header=TRUE)
+CosMx_layer<-fread("CosMx_layer.txt",header=TRUE)
 
 table(CosMx_layer$layer)
 table(CosMx_layer$cell_type)
@@ -21,7 +21,7 @@ layer_freq_CosMx<-CosMx_layer %>%
 layer_freq_CosMx<-data.frame(layer_freq_CosMx)
 
 #Inferred layer by sample 151673
-layer_pred<-fread("/Users/tangji/Library/CloudStorage/OneDrive-EmoryUniversity/backup/research/Spatial/ROSMAP/ROSMAP_400/layer_predict_400_151673_all.txt",header=TRUE)
+layer_pred<-fread("layer_predict_151673.txt",header=TRUE)
   
 layer_pred$cell.type<-factor(layer_pred$cell.type,levels=c("Astrocyte","Excitatory Neurons","Inhibitory Neurons","Microglia","OPCs","Oligodendrocytes"))
 #Get the cell type proportion for each layer by sample 151673
