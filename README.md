@@ -1,4 +1,4 @@
-# Cortical-layer specific (CLS) and Cell type specific (CTS) DGE analyses
+# Layer and cell-type specific (LCS) DGE Analyses
 
 Paper link, Integrating spatial transcriptomics and snRNA-seq data enhances differential gene expression analysis results of AD-related phenotypes: https://www.medrxiv.org/content/10.1101/2024.11.18.24317499v1](https://www.sciencedirect.com/science/article/pii/S2666247725000508
 
