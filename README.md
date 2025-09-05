@@ -1,6 +1,6 @@
 # Layer and cell-type specific (LCS) DGE Analyses
 
-Paper link, Integrating spatial transcriptomics and snRNA-seq data enhances differential gene expression analysis results of AD-related phenotypes: [https://www.sciencedirect.com/science/article/pii/S2666247725000508]
+Paper link, Integrating spatial transcriptomics and snRNA-seq data enhances differential gene expression analysis results of AD-related phenotypes: [https://www.cell.com/hgg-advances/fulltext/S2666-2477(25)00050-8]
 
 ## Workflow for layer and cell-type specific (LCS) DGE Analyses of AD-related phenotypes.
 ![alt text](https://www.medrxiv.org/content/medrxiv/early/2024/11/18/2024.11.18.24317499/F1.large.jpg?width=800&height=600&carousel=1)
